@@ -1,0 +1,105 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("woods.jpg");
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-repeat: round;
+  }
+  
+
+  #game-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #game-area {
+    border: 2px solid white;
+    background-image: url("bg5.jpg");
+    height: 500px;
+    position: relative;
+    margin: 20px 0;
+  }
+  
+  #stickman {
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    transition: left 0.5s;
+  }
+  
+  #message {
+    font-size: 30px;
+    margin-top: 10px;
+    background-color:rgb(42, 160, 42);
+  }
+  
+  #weapon-choice {
+    margin: 20px 0;
+    display: none;
+    font-size: 50px;
+  }
+  
+  .weapon {
+    background: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .weapon:hover {
+    background: #777;
+  }
+
+  
+
+  
+  
+  #start-game {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #start-game:hover {
+    background: #218838;
+  }
+  
+  #score {
+    font-size: 30px;
+    margin: 10px 0;
+    font-family: Luminari;
+    color: #FFF4B7;
+    
+
+  }
+
+  button {
+    background-color: #FFF4B7;
+    border: 1;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  #title {
+    margin-top: 50px;
+    margin-left:  50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+
+
